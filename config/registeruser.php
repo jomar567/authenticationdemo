@@ -30,7 +30,7 @@
                     $_SESSION['success'] = 'Account Created';
                     header("Location: ../index.php");
                 } else {
-                    $_SESSION['success'] = 'Account Created';
+                    $_SESSION['success'] = 'Oops! Something went wrong :(';
                     header("Location: ../register.php");
                 }
             }
